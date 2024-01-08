@@ -33,6 +33,7 @@ In trainer mode, the chatbot allows the trainer to input new responses for user 
 - [main.py](main.py): Main entry point, presents the option to enter trainer or user mode.
 - [user.py](user.py): Contains functions for user mode, including reading the JSON file and generating responses.
 - [trainer.py](trainer.py): Functions for trainer mode, including checking for matches, adding new responses, and finding best matches.
+- [dictionary.json](dictionary.json): This file serves as the database, providing the foundation for the chatbot's conversational knowledge. It includes key-value pairs, where each key represents a user query, and the corresponding values consist of possible responses or information associated with that query.
 
 ## Contributing
 
