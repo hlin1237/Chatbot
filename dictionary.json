@@ -3,6 +3,9 @@
     "I do not understand, try another question", 
     "Looks like I need to study more"
   ], 
+  "hello there": [
+    "Heyyy! How are you"
+  ], 
   "Hi": [
     "Hello", 
     "Hey how are you?"
@@ -11,11 +14,11 @@
     "I am good!", 
     "I don't have feeling"
   ], 
+  "i am feeling sad": [
+    "do you want to tell me more about it?"
+  ], 
   "Hello": [
     "Hey there", 
     "Hello to you too"
-  ], 
-  "hello there": [
-    "Heyyy! How are you"
   ]
 }
