@@ -15,13 +15,15 @@ def users_chat():
         
         bot_response = check_match(user ,'dictionary.json')
         print(bot_template.format(bot_response))
-        
+ 
+#Function to read a JSON file and return its content as a python data structure
 def read_json_file(file_path):
     
     with open(file_path, 'r') as file:
         data = json.load(file)
-        return data
+    return data
     
+# Function to check for a match in the JSON file and return a random response
 def check_match(message, file_path):
     data_file = read_json_file(file_path)
     

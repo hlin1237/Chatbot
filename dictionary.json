@@ -1,14 +1,21 @@
 {
-    "Hi" : [
-        "Hello",
-        "Hey how are you?"
-    ],
-    "default" : [
-        "I do not understand, try another question",
-        "Looks like I need to study more"
-    ],
-    "Hello" : [
-        "Hey there",
-        "Hello to you too"
-    ]
+  "default": [
+    "I do not understand, try another question", 
+    "Looks like I need to study more"
+  ], 
+  "Hi": [
+    "Hello", 
+    "Hey how are you?"
+  ], 
+  "how are you?": [
+    "I am good!", 
+    "I don't have feeling"
+  ], 
+  "Hello": [
+    "Hey there", 
+    "Hello to you too"
+  ], 
+  "hello there": [
+    "Heyyy! How are you"
+  ]
 }
