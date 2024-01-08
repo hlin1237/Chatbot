@@ -1,3 +1,4 @@
+from user import users_chat
 # ask the user to pick if they want to enter trainer mode or just user mode
 
 def choice():
@@ -7,7 +8,7 @@ def choice():
     if user == "trainer":
         print("trainer")
     elif user == "user":
-        print("users")
+        users_chat()
     else:
         print("invalid")
         choice()
