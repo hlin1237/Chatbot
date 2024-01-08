@@ -1,6 +1,6 @@
 import json
 import re
-from user import read_json_file
+
 
 bot_template = "Bot : {0}"
 
@@ -60,6 +60,13 @@ def check_matches(message, file_path):
             return True
 
     return False
+
+#Function to read a JSON file and return its content as a python data structure
+def read_json_file(file_path):
+    
+    with open(file_path, 'r') as file:
+        data = json.load(file)
+    return data
 
 def best_matches(message, file_path):
     

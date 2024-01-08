@@ -1,5 +1,6 @@
 import json
 import random
+from trainer import best_matches
 
 #string template
 bot_template = "Bot : {0}"
@@ -30,6 +31,13 @@ def check_match(message, file_path):
     for key in data_file:
         if message.lower() == key.lower():
             return random.choice(data_file[key])
+    
+    new_key = best_matches(message, file_path)
+    
+    if new_key:
+        one_key = random.choice(new_key)
+        return random.choice(data_file[one_key])
+        
         
     return random.choice(data_file["default"])
             
