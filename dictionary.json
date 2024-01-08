@@ -1,0 +1,14 @@
+{
+    "Hi" : [
+        "Hello",
+        "Hey how are you?"
+    ],
+    "default" : [
+        "I do not understand, try another question",
+        "Looks like I need to study more"
+    ],
+    "Hello" : [
+        "Hey there",
+        "Hello to you too"
+    ]
+}

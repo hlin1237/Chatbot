@@ -1,4 +1,5 @@
 import json
+import random
 
 #string template
 bot_template = "Bot : {0}"
@@ -12,8 +13,26 @@ def users_chat():
             print(bot_template.format("Have a good day"))
             break
         
-        bot_response = check_match(user)
+        bot_response = check_match(user ,'dictionary.json')
         print(bot_template.format(bot_response))
-def check_match(message):
-    return "I do not have enough data yet"
-   
+        
+def read_json_file(file_path):
+    
+    with open(file_path, 'r') as file:
+        data = json.load(file)
+        return data
+    
+def check_match(message, file_path):
+    data_file = read_json_file(file_path)
+    
+    for key in data_file:
+        if message.lower() == key.lower():
+            return random.choice(data_file[key])
+        
+    return random.choice(data_file["default"])
+            
+        
+
+
+
+
