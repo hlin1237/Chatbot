@@ -1,6 +1,6 @@
-# Chatbot
+# Chatbuddy
 
-This is a basic chatbot implemented in Python that allows users to interact in both user and trainer modes. In user mode, the chatbot responds to user queries, and in trainer mode, it learns from trainers by allowing them to input new responses for user queries.
+Chatbuddy is a chatbot implemented in Python that allows users to interact in both user and trainer modes. In user mode, the chatbot responds to user queries, and in trainer mode, it learns from trainers by allowing them to input new responses for user queries.
 
 ## Getting Started
 
