@@ -38,7 +38,5 @@ In trainer mode, the chatbot allows the trainer to input new responses for user 
 
 Feel free to contribute by adding new features, improving existing code, or fixing issues. Please follow the existing code style and open a pull request.
 
-## License
 
-This project is licensed under the [MIT License](LICENSE).
 
